@@ -10,6 +10,7 @@ It is best to run 'updateR()' from Rgui and not from RStudio. Would you like to 
 2: No
 
 Selection: 2            #这里选2
+#记得改Rstudio的环境为新R（TOOLS-Gglobal options-Changes）
 #关于R中的包
 #先将文件夹中的包全部复制到新的R文件夹中
 update.packages(checkBuilt=TRUE, ask=FALSE) 
