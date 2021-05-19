@@ -1,0 +1,16 @@
+> updateR(fast=TRUE,cran_mirror="https://mirrors.ustc.edu.cn/CRAN/")
+There is a newer version of R for you to download!
+
+You are using R version:    	 4.0.2 (2020-06-22)
+And the latest R version is:	 4.0.3 (2020-10-10)
+------------------------
+It is best to run 'updateR()' from Rgui and not from RStudio. Would you like to abort the installation and run it again from RGui? 
+
+1: Yes
+2: No
+
+Selection: 2            #这里选2
+#关于R中的包
+#先将文件夹中的包全部复制到新的R文件夹中
+update.packages(checkBuilt=TRUE, ask=FALSE) 
+#能用的包跳过，不能用的包重新安装
